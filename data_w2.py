@@ -1,0 +1,280 @@
+# -*- coding: utf-8 -*-
+# 时态（一般现在时 / 现在进行时 / 一般过去时 / 一般将来时）+ 情态动词
+# 沪教牛津版 6A 每日刷题题库 —— W2 分类数据
+
+Q = [
+    # ============ 时态·一般现在时（10 条）============
+    ("时态·一般现在时", "一般现在时与一般将来时", "🟡", "兰生9月月考",
+     "Every morning, my mother ___ (get) up early to make breakfast for the family. Today, she ___ (buy) some groceries and then visit my grandparents.",
+     ["gets; is going to buy", "gets; buys", "got; is going to buy", "get; is going to buy"], "A",
+     "第一空有 <strong>Every morning</strong>，讲的是天天如此的动作，用一般现在时；主语 my mother 是第三人称单数，动词要加 -s，故用 <strong>gets</strong>。第二空有 <strong>Today</strong>，说的是“计划”要做的事，用 be going to；主语 she 是第三人称单数，be 动词用 is，故用 <strong>is going to buy</strong>。B 项的 buys 是一般现在时，与 Today 的将来计划不符；C 项的 got 是过去式，与 Every morning 的习惯性动作不符；D 项的 get 漏掉了第三人称单数的 -s。故选 A。",
+     ["一般现在时", "三单", "be going to", "时态综合"]),
+
+    ("时态·一般现在时", "often标志一般现在时三单", "🟢", "文来9月考",
+     "Jill often ___ (go) to school at 7:30 in the morning.",
+     ["go", "going", "goes", "to go"], "C",
+     "<strong>often</strong> 意为“经常”，是<strong>一般现在时</strong>的标志词。主语 Jill 是第三人称单数，动词 go 要变为 <strong>goes</strong>（以 o 结尾加 -es）。A 项 go 漏掉了第三人称单数的 -s；B 项 going 是现在进行时；D 项 to go 是不定式，都不能与 often 搭配。故选 C。",
+     ["一般现在时", "三单", "频率副词", "go→goes"]),
+
+    ("时态·一般现在时", "everyone作第三人称单数", "🟡", "练习册错题",
+     "In fact, everyone ___ (love) this way ___ learning English.",
+     ["loves; of", "love; of", "loves; for", "love; for"], "A",
+     "<strong>everyone</strong> 意为“每个人”，看作<strong>第三人称单数</strong>，所以动词 love 要加 -s，用 <strong>loves</strong>。第二空表示“学英语的方式”，用介词 of，即 <strong>of learning English</strong>；for learning 不能表示“……的方式”。故选 A。",
+     ["一般现在时", "三单", "everyone", "介词of"]),
+
+    ("时态·一般现在时", "动词加es的三单变化", "🟢", "6A教材",
+     "My little brother ___ (watch) the football match on TV every Saturday evening.",
+     ["watch", "watchs", "watches", "watching"], "D",
+     "主语 My little brother 是第三人称单数，且 <strong>every Saturday evening</strong> 表示经常发生的事，用一般现在时。watch 以 <strong>ch</strong> 结尾，三单形式要加 <strong>-es</strong>，即 <strong>watches</strong>。watchs 是拼写错误，watching 是现在进行时。故选 D。",
+     ["一般现在时", "三单", "动词加es", "watch→watches"]),
+
+    ("时态·一般现在时", "客观真理用一般现在时", "🟢", "6A教材",
+     "The earth ___ (go) around the sun, and the moon ___ (go) around the earth.",
+     ["goes; goes", "go; go", "go; goes", "going; going"], "A",
+     "这是<strong>客观真理</strong>，永远用一般现在时。主语 the earth 和 the moon 都是第三人称单数，动词 go 要加 -es，所以两空都用 <strong>goes</strong>。B、C 项漏掉了第三人称单数的 -es，D 项误用了现在进行时。故选 A。",
+     ["一般现在时", "客观真理", "三单", "go→goes"]),
+
+    ("时态·一般现在时", "always的含义与位置", "🟡", "6AU1知识单",
+     "Bob ___ goes to the sports club every week. He ___ (always / play) basketball there.",
+     ["always; always plays", "often; always plays", "always; plays always", "often; plays always"], "A",
+     "<strong>always</strong> 意为“总是”，说明 Bob 每个星期都去体育俱乐部；频率副词放在主语之后、动词之前，位置正确。第二空要用动词原形 play 加上 -s，即 <strong>always plays</strong>。plays always 把频率副词放到了句末，不合英语习惯；often 意为“经常”，与“总是”不符。故选 A。",
+     ["一般现在时", "频率副词", "always", "副词位置"]),
+
+    ("时态·一般现在时", "复数主语动词不加s", "🟢", "6A考纲",
+     "The students in our class ___ (enjoy) the English Reading Club very much.",
+     ["enjoys", "is enjoying", "enjoy", "are enjoying"], "C",
+     "主语 The students in our class 是<strong>复数</strong>，一般现在时的动词<strong>不加 -s</strong>，所以用 <strong>enjoy</strong>。enjoys 是第三人称单数形式；is enjoying、are enjoying 都是现在进行时，与 very much 表示的常态不符。故选 C。",
+     ["一般现在时", "复数主语", "不加s", "enjoy"]),
+
+    ("时态·一般现在时", "否定句doesn't加原形", "🟡", "6A考纲",
+     "My brother ___ (not / like) the new maths teacher.",
+     ["doesn't like", "doesn't likes", "don't like", "isn't like"], "A",
+     "主语 My brother 是第三人称单数，否定句要用 <strong>doesn't</strong>（do not 的缩写形式）加<strong>动词原形</strong>，即 <strong>doesn't like</strong>。doesn't likes 多了 -s，don't like 用于 I/you/we/they，isn't like 结构错误。故选 A。",
+     ["一般现在时", "否定句", "doesn't", "缩写形式"]),
+
+    ("时态·一般现在时", "Does引导的一般疑问句", "🟡", "练习册错题",
+     "___ Tom ___ (play) the piano after school? — Yes, he does.",
+     ["Does; plays", "Do; play", "Does; play", "Do; plays"], "C",
+     "答语 <strong>Yes, he does.</strong> 说明问句是一般疑问句。Tom 是第三人称单数，助动词要用 <strong>Does</strong>，后面的动词回退成<strong>原形 play</strong>，即 <strong>Does Tom play...?</strong>。Do 用于 I/you/we/they，Does 后面不能跟 plays。故选 C。",
+     ["一般现在时", "一般疑问句", "Does", "动词原形"]),
+
+    ("时态·一般现在时", "第三人称叙述的用法", "🟢", "6A教材",
+     "My friend Kate ___ (get) up at six every day, and she ___ (walk) to school with her dog.",
+     ["get; walks", "gets; walks", "gets; walk", "get; walk"], "B",
+     "这是用<strong>第三人称</strong>叙述自己的朋友，属于一般现在时。主语 she（my friend Kate）是第三人称单数，两个动词都要加 -s：get 加 -s 变 <strong>gets</strong>，walk 加 -s 变 <strong>walks</strong>。A、D 项漏掉 -s，C 项第二空没加 -s。故选 B。",
+     ["一般现在时", "第三人称叙述", "三单", "作文应用"]),
+
+    # ============ 时态·现在进行时（9 条）============
+    ("时态·现在进行时", "现在进行时与一般现在时对比", "🟡", "兰生9月月考",
+     "Look! My little brother ___ (play) with his toys now, but he usually ___ (put) his toys neatly in the box before going to bed.",
+     ["plays; puts", "is playing; puts", "is playing; is putting", "plays; is putting"], "B",
+     "<strong>Look!</strong> 和 <strong>now</strong> 说明第一空用<strong>现在进行时</strong>，主语 brother 是第三人称单数，用 <strong>is playing</strong>。第二空有 <strong>usually</strong>，表示经常性的动作，用一般现在时，主语 he 是第三人称单数，所以是 <strong>puts</strong>。C 项第二空误用进行时，D 项第一空误用一般现在时。故选 B。",
+     ["现在进行时", "Look!", "usually对比", "put→puts"]),
+
+    ("时态·现在进行时", "Listen!标志现在进行时", "🟢", "文来9月考",
+     "Listen! The girls next door ___ (sing) a song.",
+     ["sing", "sings", "is singing", "are singing"], "D",
+     "<strong>Listen!</strong> 表示“听！”，是<strong>现在进行时</strong>的标志词。主语 The girls next door 是<strong>复数</strong>，be 动词要用 <strong>are</strong>，所以用 <strong>are singing</strong>。sing、sings 是一般现在时，is singing 的 be 动词与复数主语不搭配。故选 D。",
+     ["现在进行时", "Listen!", "复数主语", "be+doing"]),
+
+    ("时态·现在进行时", "now标志现在进行时", "🟢", "练习册错题",
+     "Nina ___ (run) on the sports field now.",
+     ["run", "running", "runs", "is running"], "D",
+     "标志词 <strong>now</strong> 提示用<strong>现在进行时</strong>，结构是 be + doing。主语 Nina 是第三人称单数，be 动词用 is；run 是重读闭音节，要<strong>双写 n</strong> 再加 -ing，即 <strong>is running</strong>。run、runs 是一般现在时，只写 running 少了 be 动词。故选 D。",
+     ["现在进行时", "now", "run→running", "be+doing"]),
+
+    ("时态·现在进行时", "现在进行时的否定", "🟡", "6A考纲",
+     "My father ___ (not / watch) TV now. He is reading a book.",
+     ["isn't watch", "isn't watching", "doesn't watch", "not watching"], "B",
+     "标志词 <strong>now</strong> 提示用现在进行时，否定式是 <strong>be not + doing</strong>；主语 My father 是第三人称单数，be 动词用 is，所以是 <strong>isn't watching</strong>。isn't watch 用了原形，doesn't watch 是一般现在时的否定，not watching 少了 be 动词。故选 B。",
+     ["现在进行时", "否定句", "be not doing", "watch→watching"]),
+
+    ("时态·现在进行时", "现在进行时特殊疑问", "🟡", "6AU1知识单",
+     "—What ___ you ___ at the moment? — I am doing my homework.",
+     ["are; doing", "do; do", "are; do", "do; doing"], "A",
+     "标志词 <strong>at the moment</strong> 表示此刻，句子用<strong>现在进行时</strong>。主语 you 对应答语 I am，所以问句的 be 动词用 <strong>are</strong>；动词要用 -ing 形式，故为 <strong>What are you doing at the moment?</strong>。do/does 是一般现在时，与 at the moment 不符。故选 A。",
+     ["现在进行时", "特殊疑问句", "at the moment", "be+doing"]),
+
+    ("时态·现在进行时", "read与write变ing形式", "🟡", "6A教材",
+     "Look! The students ___ (read) an English story, and the teacher ___ (write) the new words on the board.",
+     ["are read; is writing", "is reading; are writing", "are reading; is writing", "are reading; are write"], "C",
+     "<strong>Look!</strong> 提示用<strong>现在进行时</strong>。主语 The students 是复数，用 <strong>are reading</strong>（read 直接加 -ing）；主语 the teacher 是第三人称单数，用 <strong>is writing</strong>（write 去掉 e 再加 -ing）。A 项第一空用了原形，B 项两处 be 动词都用反了，D 项第二空漏了 be 动词。故选 C。",
+     ["现在进行时", "read→reading", "write→writing", "ing变化"]),
+
+    ("时态·现在进行时", "usually与today的时态对比", "🟡", "6AU1知识单",
+     "Our lessons usually ___ (begin) at eight o'clock, but today they ___ (begin) at eight twenty.",
+     ["begin; begin", "begin; are beginning", "are beginning; begin", "begins; are beginning"], "B",
+     "<strong>usually</strong> 表示经常性的安排，用<strong>一般现在时</strong>；主语 our lessons 是复数，动词用原形 <strong>begin</strong>。第二空讲“今天”的具体情况，用<strong>现在进行时</strong>；begin 要双写 n 再加 -ing，故为 <strong>are beginning</strong>。C 项两句时态正好用反，D 项第一空错加了 -s。故选 B。",
+     ["现在进行时", "usually对比", "begin→beginning", "时态辨析"]),
+
+    ("时态·现在进行时", "make变making的用法", "🟢", "6A教材",
+     "My mother ___ (make) a fruit salad in the kitchen now.",
+     ["makes", "is make", "is making", "making"], "C",
+     "标志词 <strong>now</strong> 提示<strong>现在进行时</strong>。主语 My mother 是第三人称单数，be 动词用 is；make 直接加 -ing 变成 <strong>making</strong>，所以是 <strong>is making</strong>。makes 是一般现在时，is make 用了原形，只写 making 少了 be 动词。故选 C。",
+     ["现在进行时", "make→making", "now", "be+doing"]),
+
+    ("时态·现在进行时", "swim变swimming双写", "🟢", "6A考纲",
+     "The boys ___ (swim) in the swimming pool at the moment.",
+     ["are swiming", "are swimming", "swim", "is swimming"], "B",
+     "标志词 <strong>at the moment</strong> 提示<strong>现在进行时</strong>。主语 The boys 是复数，be 动词用 are；swim 是重读闭音节，要<strong>双写 m</strong> 再加 -ing，即 <strong>are swimming</strong>。are swiming 少了一个 m，swim 是一般现在时，is swimming 的 be 动词与复数主语不搭配。故选 B。",
+     ["现在进行时", "swim→swimming", "at the moment", "双写规则"]),
+
+    # ============ 时态·一般过去时（10 条）============
+    ("时态·一般过去时", "过去时否定句didn't加原形", "🟡", "6A考纲",
+     "I ___ (not / go) to the swimming club yesterday, because I was ill.",
+     ["didn't go", "didn't went", "doesn't go", "not went"], "A",
+     "标志词 <strong>yesterday</strong> 说明是<strong>一般过去时</strong>。否定句用 <strong>didn't</strong> 加<strong>动词原形</strong>，所以是 <strong>didn't go</strong>。didn't went 多了过去式词尾，doesn't go 是一般现在时的否定，not went 结构错误。故选 A。",
+     ["一般过去时", "否定句", "didn't+原形", "yesterday"]),
+
+    ("时态·一般过去时", "过去时疑问句Did加原形", "🟡", "6A教材",
+     "___ you ___ (visit) the new library last Saturday? — Yes, I did.",
+     ["Do; visit", "Did; visited", "Did; visit", "Do; visited"], "C",
+     "答语 <strong>Yes, I did.</strong> 说明问句是<strong>一般过去时的疑问句</strong>，助动词用 <strong>Did</strong>，后面的动词要回退成<strong>原形 visit</strong>，即 <strong>Did you visit...?</strong>。Do 是一般现在时，Did 后面不能跟过去式 visited。故选 C。",
+     ["一般过去时", "一般疑问句", "Did+原形", "last Saturday"]),
+
+    ("时态·一般过去时", "规则动词过去式加ed", "🟡", "6A教材",
+     "Last week we ___ (clean) the classroom, ___ (watch) a magic show and ___ (wait) for the school bus for half an hour.",
+     ["clean; watched; waited", "cleaned; watch; wait", "clean; watch; wait", "cleaned; watched; waited"], "D",
+     "标志词 <strong>Last week</strong> 说明用<strong>一般过去时</strong>，三个动词都要用过去式：clean 加 -ed 读 /d/（清辅音后），watch 加 -ed 读 /t/（/tʃ/ 后），wait 加 -ed 读 /ɪd/（/t/ 后）。所以三空依次是 <strong>cleaned; watched; waited</strong>。A、B、C 项里还有动词用了原形。故选 D。",
+     ["一般过去时", "规则动词", "ed读音", "last week"]),
+
+    ("时态·一般过去时", "不规则动词go与see的过去式", "🟡", "6AU1知识单",
+     "We ___ (go) to the museum last Sunday and ___ (see) a lot of old buildings there.",
+     ["go; see", "went; saw", "go; saw", "went; see"], "B",
+     "标志词 <strong>last Sunday</strong> 提示<strong>一般过去时</strong>。go 的过去式是 <strong>went</strong>，see 的过去式是 <strong>saw</strong>，两个都是不规则动词，不能加 -ed。C 项的 go 漏掉过去式，D 项的 see 漏掉过去式。故选 B。",
+     ["一般过去时", "go→went", "see→saw", "last Sunday"]),
+
+    ("时态·一般过去时", "take与get的过去式", "🟡", "6A教材",
+     "My mother ___ (take) many photos in the park yesterday, and I ___ (get) a big ice cream there.",
+     ["take; get", "took; get", "takes; got", "took; got"], "D",
+     "标志词 <strong>yesterday</strong> 提示用<strong>一般过去时</strong>。take 的过去式是 <strong>took</strong>，get 的过去式是 <strong>got</strong>。A、B 项的两个动词都用了原形，C 项第一空是第三人称单数形式。故选 D。",
+     ["一般过去时", "take→took", "get→got", "家庭生活"]),
+
+    ("时态·一般过去时", "teach与say的过去式", "🟡", "6A教材",
+     "Mr Li ___ (teach) us Chinese history last term, and he ___ (say) it was very interesting.",
+     ["teaches; says", "taught; said", "taught; says", "teach; said"], "B",
+     "标志词 <strong>last term</strong> 提示<strong>一般过去时</strong>。teach 的过去式是 <strong>taught</strong>，say 的过去式是 <strong>said</strong>。A 项是一般现在时，C 项第二空漏掉过去式，D 项第一空漏掉过去式。故选 B。",
+     ["一般过去时", "teach→taught", "say→said", "校园生活"]),
+
+    ("时态·一般过去时", "buy与make的过去式", "🟡", "6A教材",
+     "She ___ (buy) some fruit yesterday, and her mother ___ (make) a fruit salad for us.",
+     ["buy; makes", "buys; make", "bought; made", "bought; make"], "C",
+     "标志词 <strong>yesterday</strong> 提示<strong>一般过去时</strong>。buy 的过去式是 <strong>bought</strong>，make 的过去式是 <strong>made</strong>。A、B 项的第一个动词没有用过去式，D 项第二空漏掉过去式。故选 C。",
+     ["一般过去时", "buy→bought", "make→made", "家庭生活"]),
+
+    ("时态·一般过去时", "write与begin的过去式", "🟡", "6A考纲",
+     "Last weekend I ___ (write) a letter to my pen friend, and she ___ (begin) to read it right away.",
+     ["write; began", "wrote; began", "wrote; begin", "write; begin"], "B",
+     "标志词 <strong>Last weekend</strong> 提示<strong>一般过去时</strong>。write 的过去式是 <strong>wrote</strong>（以 e 结尾，去 e 加 -ed），begin 的过去式是 <strong>began</strong>。A、C 项都有动词用了原形，D 项两个动词都没有变过去式。故选 B。",
+     ["一般过去时", "write→wrote", "begin→began", "不规则动词"]),
+
+    ("时态·一般过去时", "There be的过去式was", "🟡", "6A考纲",
+     "There ___ (be) a school sports meeting in our school two weeks ago.",
+     ["was", "were", "are", "have been"], "A",
+     "标志词 <strong>two weeks ago</strong> 提示<strong>一般过去时</strong>。There be 句型的过去式是 <strong>was</strong>（单数）或 were（复数）；a school sports meeting 是单数，所以用 <strong>was</strong>。were 与单数主语不搭配，are 和 have been 都是现在时。故选 A。",
+     ["一般过去时", "There be", "was/were", "...ago"]),
+
+    ("时态·一般过去时", "have与do的过去式", "🟡", "6A教材",
+     "In 2024, our class ___ (have) an English party, and we ___ (do) a short play at the party.",
+     ["has; do", "have; did", "had; do", "had; did"], "D",
+     "标志词 <strong>In 2024</strong> 提示<strong>一般过去时</strong>。have 的过去式是 <strong>had</strong>，do 的过去式是 <strong>did</strong>。A、B 项的第一个动词没有用过去式，C 项第二空漏掉 did。故选 D。",
+     ["一般过去时", "have→had", "do→did", "in 2024"]),
+
+    # ============ 时态·一般将来时（8 条）============
+    ("时态·一般将来时", "be going to加动词原形", "🟢", "兰生9月月考",
+     "Today, she ___ (buy) some groceries and then visit my grandparents.",
+     ["is going to buy", "buys", "is going to buys", "buys going to"], "A",
+     "句中说的是她“计划”要做的事，且有标志词 <strong>Today</strong>，用<strong>一般将来时</strong>。be going to 后面接<strong>动词原形</strong>；主语 she 是第三人称单数，be 动词用 is，所以是 <strong>is going to buy</strong>。buys 是一般现在时，is going to buys 多了 -s，buys going to 结构错误。故选 A。",
+     ["一般将来时", "be going to", "动词原形", "Today"]),
+
+    ("时态·一般将来时", "There is going to be", "🟡", "6A教材",
+     "There ___ (be) a school sports meeting soon, and all the students ___ (take) part in it.",
+     ["are going to be; will take", "is going to be; will take", "is going to be; take", "will be; will take"], "B",
+     "标志词 <strong>soon</strong> 表示将来，用 be going to 结构。There be 句型要看<strong>最近的主语</strong>：a school sports meeting 是单数，所以用 <strong>is going to be</strong>。第二空讲“将会参加”，用 <strong>will</strong> 加动词原形 take。A 项 be 动词用错，C 项第二空缺 will。故选 B。",
+     ["一般将来时", "There be", "will+原形", "soon"]),
+
+    ("时态·一般将来时", "will加动词原形", "🟢", "6AU1知识单",
+     "Don't worry. I ___ (help) you with your English tomorrow.",
+     ["will helps", "helps", "will help", "is helping"], "C",
+     "标志词 <strong>tomorrow</strong> 提示<strong>一般将来时</strong>。will 后面接<strong>动词原形</strong>，所以用 <strong>will help</strong>，表示“我将会帮你”。will helps 多了 -s，helps 是一般现在时，is helping 是现在进行时。故选 C。",
+     ["一般将来时", "will+原形", "tomorrow", "标志词"]),
+
+    ("时态·一般将来时", "want to do的用法", "🟢", "6A教材",
+     "I want ___ (join) the English club this term.",
+     ["joining", "join", "joined", "to join"], "D",
+     "want 表示“想要”，后面接<strong>动词不定式</strong>，即 <strong>want to do sth.</strong>，所以用 <strong>to join</strong>。joining 是动名词，join 是原形，joined 是过去式，都不能直接跟在 want 后面。故选 D。",
+     ["一般将来时", "want to do", "不定式", "打算"]),
+
+    ("时态·一般将来时", "现在进行时表将来安排", "🟡", "6AU1知识单",
+     "I'm ___ (meet) my cousin at the train station tomorrow. Everything is ready.",
+     ["meeting", "meet", "met", "to meet"], "A",
+     "这里用<strong>现在进行时表示将来</strong>的安排：已经约好的事常用 am/is/are + doing。句中已给出 I'm，所以后面只能接<strong>动词 -ing 形式</strong>，即 <strong>I'm meeting...</strong>。meet、to meet 不能跟在 am 后面，met 是过去式。故选 A。",
+     ["一般将来时", "现在进行时表将来", "tomorrow", "已约定安排"]),
+
+    ("时态·一般将来时", "in two years标志将来", "🟢", "6A教材",
+     "In two years, I ___ (be) a middle school student.",
+     ["am", "was", "will be", "were"], "C",
+     "标志词 <strong>In two years</strong> 表示将来，用<strong>一般将来时</strong>。be 的将来式是 <strong>will be</strong>。am、was、were 分别是现在时和过去时，都与 In two years 不搭配。故选 C。",
+     ["一般将来时", "will+be", "in two years", "标志词"]),
+
+    ("时态·一般将来时", "next week标志将来", "🟡", "6A考纲",
+     "___ you ___ (join) us for the film club meeting next week? — Sure, I'd love to.",
+     ["Do; you", "Will; you", "Are; you", "Would; you"], "B",
+     "答语 <strong>Sure, I'd love to.</strong> 表示愿意接受邀请，问句要用 <strong>Will</strong> 开头，构成一般将来时的疑问句 <strong>Will you join...?</strong>。Do、Are 是一般现在时，Would you 是委婉请求，不是询问将来安排。故选 B。",
+     ["一般将来时", "next week", "Will you", "一般疑问句"]),
+
+    ("时态·一般将来时", "be going to表示计划", "🟢", "6A考纲",
+     "Our class ___ (have) a book exchange next Friday, so please sign up now.",
+     ["are going to have", "going to have", "is going have", "is going to have"], "D",
+     "标志词 <strong>next Friday</strong> 提示<strong>一般将来时</strong>。be going to 后面要接动词原形 have；主语 <strong>Our class</strong> 指一个班级，是单数，be 动词用 <strong>is</strong>，所以是 <strong>is going to have</strong>。A 项 be 动词用错，C 项漏了 to。故选 D。",
+     ["一般将来时", "be going to", "next Friday", "班级活动"]),
+
+    # ============ 情态动词（8 条）============
+    ("情态动词", "can表示能够", "🟡", "兰生9月月考",
+     "We play many games in class. The fun games ___ (can) help us improve our speaking skills.",
+     ["must", "should", "need", "can"], "D",
+     "句意是“这些有趣的游戏能帮助我们提高口语技能”，此处表示“能够”，用 <strong>can</strong>。must 表示“必须”、should 表示“应该”、need 表示“需要”，都不符合语境。故选 D。",
+     ["情态动词", "can", "能力", "后接原形"]),
+
+    ("情态动词", "can用于问句与答语呼应", "🟢", "文来9月考",
+     "How many apple trees ___ you see in the picture? — I can see eleven.",
+     ["could", "must", "can", "may"], "C",
+     "答语 <strong>I can see eleven.</strong> 说明问句也用 <strong>can</strong>，构成 <strong>Can you...?</strong> 的问句。could 多用于委婉请求，must 表示“必须”，may 表示许可或可能，都与答语不呼应。故选 C。",
+     ["情态动词", "can", "How many", "问句答语呼应"]),
+
+    ("情态动词", "must表示必须", "🟢", "6A教材",
+     "Students ___ (must) wear the school uniform on Monday and Friday.",
+     ["must", "should", "may", "need"], "A",
+     "句意是“学生周一和周五必须穿校服”，这是<strong>校规规定的义务</strong>，用 <strong>must</strong>。should 表示“应该”（建议），may 表示“可以”（许可），need 是实义动词（need to do），都不表示强制义务。故选 A。",
+     ["情态动词", "must", "义务", "后接原形"]),
+
+    ("情态动词", "should表示应该", "🟢", "6A考纲",
+     "You look tired. You ___ (should) have a rest now.",
+     ["must", "should", "may", "can"], "B",
+     "别人看起来累了，我们提建议说“你<strong>应该</strong>休息一下”，用 <strong>should</strong>。must 语气太强硬，may 表示许可，can 表示能力，都不符合“提建议”的语气。故选 B。",
+     ["情态动词", "should", "建议", "后接原形"]),
+
+    ("情态动词", "may表示请求许可", "🟢", "6AU1知识单",
+     "—___ I use your dictionary, Miss Wang? — Certainly, here you are.",
+     ["Must", "Should", "May", "Need"], "C",
+     "句中向老师请求用词典，是<strong>请求许可</strong>，用 <strong>May I...?</strong> 最礼貌。Must I...? 表示“我必须吗”，语气生硬；Should I...? 是征求意见该不该做，与答语 Certainly 不对应。故选 C。",
+     ["情态动词", "may", "请求许可", "日常交际"]),
+
+    ("情态动词", "might表示可能性推测", "🟡", "6AU1知识单",
+     "Please don't make so much noise. Your baby sister ___ (might) wake up.",
+     ["may", "might", "must", "can"], "B",
+     "这是对可能发生的事作推测，“妹妹<strong>可能</strong>会醒来”，用 <strong>might</strong>。must 表示肯定，can 表示能力；may 也能表示可能，但语气比 might 更不确定，这里是“怕吵醒妹妹”的担心，用 might 更恰当。故选 B。",
+     ["情态动词", "might", "推测", "可能性"]),
+
+    ("情态动词", "mustn't与don't have to", "🟡", "6A教材",
+     "You ___ (mustn't / don't have to) make noise in the reading room. It's a rule of the library.",
+     ["must", "should", "don't have to", "mustn't"], "D",
+     "句中有 <strong>It's a rule of the library.</strong>，说明这是“禁止”的规定，用 <strong>mustn't</strong>（= must not，表示禁止）。<strong>don't have to</strong> 表示“没必要”，语气是允许而非禁止；must 表示必须要做。故选 D。",
+     ["情态动词", "mustn't", "禁止", "don't have to"]),
+
+    ("情态动词", "could表示委婉请求", "🟡", "6A教材",
+     "—___ you help me carry this box of books, please? — Of course, I can.",
+     ["Could", "Must", "Should", "May"], "A",
+     "向别人请求帮忙时，用 <strong>Could you...?</strong> 语气最委婉礼貌。Must you...? 是命令，Should you...? 是问对方该不该做，May you...? 不能这样用来请对方帮忙。故选 A。",
+     ["情态动词", "could", "委婉请求", "后接原形"]),
+]
